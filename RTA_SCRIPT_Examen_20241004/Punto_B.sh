@@ -75,6 +75,8 @@ echo "/dev/sdc10 /Examenes-UTN/alumno_3/parcial_3 ext4 defaults 0   0 " | sudo t
 echo "/dev/sdc11 /Examenes-UTN/profesores ext4 defaults 0   0 " | sudo tee -a /etc/fstab
 
 
+sudo mount -a
+
 echo "--------------------------------"
 echo "--!DISCO-PARTICIONADO-MONTADO!--"
 echo "--------------------------------"
