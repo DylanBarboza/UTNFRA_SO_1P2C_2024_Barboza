@@ -78,6 +78,9 @@ echo "/dev/sdc11 /Examenes-UTN/profesores ext4 defaults 0   0 " | sudo tee -a /e
 sudo mount -a
 
 echo "--------------------------------"
+echo "--------------------------------"
 echo "--!DISCO-PARTICIONADO-MONTADO!--"
 echo "--------------------------------"
+echo "--------------------------------"
+
 
